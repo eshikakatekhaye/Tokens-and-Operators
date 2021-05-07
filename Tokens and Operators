@@ -1,0 +1,26 @@
+//1. Finding the size of char,int,float and double in the system.
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout<<"Size of char: "<<sizeof(char)<<"byte\n";
+    cout<<"Size of int: "<<sizeof(int)<<"bytes\n";
+    cout<<"Size of float: "<<sizeof(float)<<"bytes\n";
+    cout<<"Size of double: "<<sizeof(double)<<"bytes\n";
+    return 0;
+}
+
+//2. Program to calculate and display the product of two numbers.
+#include<iostream>
+using namespace std;
+int main()
+{
+    float x,y,z;
+    cout<<"Enter two numbers whose product is required :";
+    cin>>x;
+    cin>>y;
+    z=x*y;
+    cout<<"\n Product is : "<<z;
+    return 0;
+}
+
